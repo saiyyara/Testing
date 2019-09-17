@@ -1,0 +1,13 @@
+
+<suite name="akila">
+   <test name="Report1">
+     <classes>
+       <class name="mytestng.Show"/>
+     </classes>
+   </test>
+   <test name="Report2">
+    <classes>
+      <class name="mytestng.Show1"/>
+    </classes>
+   </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [akila]">
+  <test name="Report1">
+    <classes>
+      <class name="mytestng.Show"/>
+    </classes>
+  </test> <!-- Report1 -->
+  <test name="Report2">
+    <classes>
+      <class name="mytestng.Show1"/>
+    </classes>
+  </test> <!-- Report2 -->
+</suite> <!-- Failed suite [akila] -->
