@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
+//definition class
 public class StepDefinition {
 	WebDriver driver;
 	@When("^I open OrangeHRMS URL on chromebrowser$")
