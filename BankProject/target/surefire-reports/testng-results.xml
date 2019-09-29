@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[No of row:7]]>
+    </line>
+    <line>
+      <![CDATA[No of col:4]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Logoout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Branch Creation Successful]]>
+    </line>
+    <line>
+      <![CDATA[Logoout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Branch Updation Successful]]>
+    </line>
+    <line>
+      <![CDATA[Logoout Successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="586605" started-at="2019-09-25T07:45:06Z" finished-at="2019-09-25T07:54:53Z">
+    <groups>
+    </groups>
+    <test name="keywordframe" duration-ms="521176" started-at="2019-09-25T07:45:06Z" finished-at="2019-09-25T07:53:47Z">
+      <class name="drivefactory.DataDrivenFramework">
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:drivefactory.DataDrivenFramework@14ac77b9]" name="adminLogin" is-config="true" duration-ms="23770" started-at="2019-09-25T07:45:06Z" finished-at="2019-09-25T07:45:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="empCreation()[pri:0, instance:drivefactory.DataDrivenFramework@14ac77b9]" name="empCreation" duration-ms="479793" started-at="2019-09-25T07:45:30Z" finished-at="2019-09-25T07:53:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No of row:7]]>
+            </line>
+            <line>
+              <![CDATA[No of col:4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empCreation -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:drivefactory.DataDrivenFramework@14ac77b9]" name="logoutApp" is-config="true" duration-ms="17591" started-at="2019-09-25T07:53:30Z" finished-at="2019-09-25T07:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+      </class> <!-- drivefactory.DataDrivenFramework -->
+    </test> <!-- keywordframe -->
+    <test name="datadriven" duration-ms="65407" started-at="2019-09-25T07:53:47Z" finished-at="2019-09-25T07:54:53Z">
+      <class name="drivefactory.DriverScript">
+        <test-method status="PASS" signature="launch()[pri:0, instance:drivefactory.DriverScript@70211e49]" name="launch" is-config="true" duration-ms="4164" started-at="2019-09-25T07:53:47Z" finished-at="2019-09-25T07:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="primusbank()[pri:0, instance:drivefactory.DriverScript@70211e49]" name="primusbank" duration-ms="61114" started-at="2019-09-25T07:53:51Z" finished-at="2019-09-25T07:54:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Logoout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Branch Creation Successful]]>
+            </line>
+            <line>
+              <![CDATA[Logoout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Branch Updation Successful]]>
+            </line>
+            <line>
+              <![CDATA[Logoout Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- primusbank -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:drivefactory.DriverScript@70211e49]" name="logout" is-config="true" duration-ms="127" started-at="2019-09-25T07:54:53Z" finished-at="2019-09-25T07:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- drivefactory.DriverScript -->
+    </test> <!-- datadriven -->
+  </suite> <!-- Suite -->
+</testng-results>
